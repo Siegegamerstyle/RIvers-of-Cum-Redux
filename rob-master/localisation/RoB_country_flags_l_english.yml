@@ -60,6 +60,13 @@
  les_tt_1:0 "§BWe will unlock Pagan parts of the tree§!"
  les_tt_2:0 "§RWe will unlock Futurist parts of the tree§!"
  les_tt_3:0 "§GWe will unlock Christian parts of the tree§!"
+ les_tt_4:0 "§GThis will allow us to gain better research in exchange for political support§!"
+ les_tt_5:0 "§RThis will increase coring cost in some states§!"
+ les_tt_6:0 "§GWe will unlock more decisions for the Legionary council§!"
+ les_tt_7:0 "§GOne will to rule them all§!"
+ les_tt_8:0 "§GUnited we march towards future§!"
+ les_tt_9:0 "§GLike Rome§!"
+ les_tt_10:0 "§§!"
  ###Scripted Triggers
  minister_available:0 "Minister Available For This Government Type"
  democratic_aligned_government:0 "Government is Democratic Aligned"

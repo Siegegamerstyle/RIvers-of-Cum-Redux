@@ -600,9 +600,275 @@ LES_Fiercest_Infantry = {
    army_defence_factor = 0.025
    industrial_capacity_factory = 0.025
    production_factory_max_efficiency_factor = 0.025
-   research_speed_factor = 0.05
-   MONTHLY_POPULATION = -0.5
-   training_time_factor = 0.15
+   research_speed_factor = 0.025
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   }
+}
+   LES_banish_aliens = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   weekly_manpower = -1000
+   stability_weekly = -0.01
+   war_support_weekly = 0.01
+   }
+}
+   LES_eugenics_RE_1Ba = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   army_attack_factor = 0.025
+   army_defence_factor = 0.025
+   industrial_capacity_factory = 0.075
+   industrial_capacity_dockyard = 0.05
+   production_factory_max_efficiency_factor = 0.025
+   research_speed_factor = 0.025
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   weekly_manpower = -100
+   }
+}
+   LES_eugenics_RE_1Bb = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   army_attack_factor = 0.025
+   army_defence_factor = 0.025
+   industrial_capacity_factory = 0.075
+   industrial_capacity_dockyard = 0.05
+   production_factory_max_efficiency_factor = 0.025
+   research_speed_factor = 0.025
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2  
+   }
+}
+   LES_eugenics_RE_1Aa = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   army_attack_factor = 0.025
+   army_defence_factor = 0.025
+   industrial_capacity_factory = 0.025
+   production_factory_max_efficiency_factor = 0.025
+   research_speed_factor = 0.025
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   weekly_manpower = -100
+   enemy_justify_war_goal_time = -0.2  
+   }
+}
+   LES_eugenics_RE_1Ab = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   army_attack_factor = 0.025
+   army_defence_factor = 0.025
+   industrial_capacity_factory = 0.075
+   industrial_capacity_dockyard = 0.05
+   production_factory_max_efficiency_factor = 0.025
+   research_speed_factor = 0.025
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2  
+   }
+}
+   LES_eugenics_RE_GC = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   army_attack_factor = 0.025
+   army_defence_factor = 0.025
+   industrial_capacity_factory = 0.075
+   industrial_capacity_dockyard = 0.05
+   production_factory_max_efficiency_factor = 0.025
+   research_speed_factor = 0.025
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2 
+   compliance_gain = 0.1
+   }
+}
+   LES_eugenics_RE_GC_Aa = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   army_attack_factor = 0.025
+   army_defence_factor = 0.025
+   industrial_capacity_factory = 0.075
+   industrial_capacity_dockyard = 0.05
+   production_factory_max_efficiency_factor = 0.025
+   research_speed_factor = 0.025
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2
+   compliance_gain = 0.2
+   stability_weekly = 0.001
+   }
+}
+   LES_eugenics_RE_GC_Ab = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   army_attack_factor = 0.025
+   army_defence_factor = 0.025
+   industrial_capacity_factory = 0.075
+   industrial_capacity_dockyard = 0.05
+   production_factory_max_efficiency_factor = 0.025
+   research_speed_factor = 0.025
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2
+   compliance_gain = 0.3
+   stability_weekly = 0.002
+   }
+}
+   LES_eugenics_RE_GC_Ba = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   army_attack_factor = 0.025
+   army_defence_factor = 0.025
+   industrial_capacity_factory = 0.075
+   industrial_capacity_dockyard = 0.05
+   production_factory_max_efficiency_factor = 0.025
+   research_speed_factor = 0.025
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2
+   compliance_gain = 0.2
+   stability_weekly = 0.001
+   }
+}
+   LES_eugenics_RE_GC_Bb = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   army_attack_factor = 0.025
+   army_defence_factor = 0.025
+   industrial_capacity_factory = 0.075
+   industrial_capacity_dockyard = 0.05
+   production_factory_max_efficiency_factor = 0.025
+   research_speed_factor = 0.025
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2
+   compliance_gain = 0.3
+   stability_weekly = 0.002
+   }
+}
+   LES_eugenics_RE_KA_2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   army_attack_factor = 0.025
+   army_defence_factor = 0.025
+   industrial_capacity_factory = 0.075
+   industrial_capacity_dockyard = 0.05
+   production_factory_max_efficiency_factor = 0.025
+   research_speed_factor = 0.025
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2  
+   consumer_goods_factor = 0.05
+   }
+}
+   LES_eugenics_RE_KA_2A = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   army_attack_factor = 0.025
+   army_defence_factor = 0.025
+   industrial_capacity_factory = 0.075
+   industrial_capacity_dockyard = 0.05
+   production_factory_max_efficiency_factor = 0.025
+   research_speed_factor = 0.075
+   MONTHLY_POPULATION = -0.25
+   training_time_factor = 0.10
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2  
+   consumer_goods_factor = 0.05
    }
 }
    LES_reconstructxD = {
@@ -615,8 +881,409 @@ LES_Fiercest_Infantry = {
       }
      removal_cost = -1
    modifier = {
-   non_core_manpower = 0.10
-   MONTHLY_POPULATION = 0.2
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   }
+}
+   LES_reconstructxD_BA_Aa = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   weekly_manpower = -100
+   enemy_justify_war_goal_time = -0.20
+   }
+}
+   LES_reconstructxD_BA_Ab = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.20
+   industrial_capacity_factory = 0.05
+   industrial_capacity_dockyard = 0.05
+   }
+}
+   LES_reconstructxD_BA_Ba = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   weekly_manpower = -100
+   industrial_capacity_factory = 0.05
+   industrial_capacity_dockyard = 0.05
+   }
+}
+   LES_reconstructxD_BA_Bb = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   weekly_manpower = -200
+   industrial_capacity_factory = 0.05
+   industrial_capacity_dockyard = 0.05
+   enemy_justify_war_goal_time = -0.20
+   }
+}
+   LES_reconstructxD_BA_KA = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   weekly_manpower = -200
+   industrial_capacity_factory = 0.05
+   industrial_capacity_dockyard = 0.05
+   enemy_justify_war_goal_time = -0.20
+   consumer_goods_factor = 0.05
+   }
+}
+   LES_reconstructxD_BA_KA2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   weekly_manpower = -200
+   industrial_capacity_factory = 0.05
+   industrial_capacity_dockyard = 0.05
+   enemy_justify_war_goal_time = -0.20
+   consumer_goods_factor = 0.05
+   research_speed_factor = 0.05
+   }
+}
+   LES_reconstructxD_BA_GC = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   weekly_manpower = -200
+   industrial_capacity_factory = 0.05
+   industrial_capacity_dockyard = 0.05
+   enemy_justify_war_goal_time = -0.20
+   compliance_gain = 0.1
+   }
+}
+   LES_reconstructxD_BA_GC_Aa = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   weekly_manpower = -200
+   industrial_capacity_factory = 0.05
+   industrial_capacity_dockyard = 0.05
+   enemy_justify_war_goal_time = -0.20
+   compliance_gain = 0.2
+   stability_weekly = 0.001
+   }
+}
+   LES_reconstructxD_BA_GC_Ab = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   weekly_manpower = -200
+   industrial_capacity_factory = 0.05
+   industrial_capacity_dockyard = 0.05
+   enemy_justify_war_goal_time = -0.20
+   compliance_gain = 0.3
+   stability_weekly = 0.002
+   }
+}
+   LES_reconstructxD_BA_GC_Ba = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   weekly_manpower = -200
+   industrial_capacity_factory = 0.05
+   industrial_capacity_dockyard = 0.05
+   enemy_justify_war_goal_time = -0.2
+   compliance_gain = 0.2
+   stability_weekly = 0.001
+   }
+}
+   LES_reconstructxD_BA_GC_Bb = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.1
+   MONTHLY_POPULATION = 0.1
+   weekly_manpower = -200
+   industrial_capacity_factory = 0.05
+   industrial_capacity_dockyard = 0.05
+   enemy_justify_war_goal_time = -0.20
+   compliance_gain = 0.3
+   stability_weekly = 0.002
+   }
+}
+   LES_reconstructxD_IU_1 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1
+   }
+}
+  LES_reconstructxD_IU_1Aa = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1
+   resistance_target = 0.1
+
+   }
+}
+  LES_reconstructxD_IU_1Ab = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1
+   resistance_target = 0.1
+   compliance_gain = 0.1
+   }
+}
+  LES_reconstructxD_IU_1Ba = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1
+   resistance_target = -0.15
+   }
+}
+  LES_reconstructxD_IU_1Bb = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1
+   resistance_target = 0.1
+   compliance_gain = 0.1
+   }
+}
+  LES_reconstructxD_IU_KA = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1
+   resistance_target = -0.15
+   consumer_goods_factor = 0.05
+   }
+}
+  LES_reconstructxD_IU_KA2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1
+   resistance_target = -0.15
+   consumer_goods_factor = 0.05
+   research_speed_factor = 0.05
+   }
+}
+   LES_reconstructxD_IU_GC = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1
+   compliance_gain = 0.1
+   resistance_target = -0.15
+   }
+}
+   LES_reconstructxD_IU_GC_Aa = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1  
+   compliance_gain = 0.2
+   stability_weekly = 0.001
+   resistance_target = -0.15
+   }
+}
+   LES_reconstructxD_IU_GC_Ab = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1 
+   compliance_gain = 0.3
+   stability_weekly = 0.002
+   resistance_target = -0.15
+   }
+}
+   LES_reconstructxD_IU_GC_Ba = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1 
+   compliance_gain = 0.2
+   stability_weekly = 0.001
+   resistance_target = -0.15
+   }
+}
+   LES_reconstructxD_IU_GC_Bb = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   non_core_manpower = 0.2
+   MONTHLY_POPULATION = 0.1 
+   compliance_gain = 0.3
+   stability_weekly = 0.002
+   resistance_target = -0.15
    }
 }
    LES_spiritfirst = {
@@ -632,6 +1299,193 @@ LES_Fiercest_Infantry = {
    industrial_capacity_factory = 0.1
    }
 }
+   LES_spiritfirst_RA_1Aa = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.1
+   weekly_manpower = -100
+   enemy_justify_war_goal_time = -0.2  
+   }
+}
+   LES_spiritfirst_RA_1Ab = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.15
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2
+   }
+}
+   LES_spiritfirst_RA_1Ba = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.15
+   weekly_manpower = -100
+   }
+}
+   LES_spiritfirst_RA_1Bb = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.15
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2
+   }
+}
+   LES_spiritfirst_RA_KA_2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.15
+   weekly_manpower = -200
+   enemy_justify_war_goal_time = -0.2
+   consumer_goods_factor = 0.05
+   }
+}
+ LES_spiritfirst_IU_1 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.10
+   non_core_manpower = 0.1
+   }
+}
+ LES_spiritfirst_IU_1b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.10
+   non_core_manpower = 0.1
+   resistance_target = -0.15
+   }
+}
+ LES_spiritfirst_IU_GC_2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.10
+   non_core_manpower = 0.1
+   resistance_target = -0.15
+   compliance_gain = 0.1
+   }
+}
+ LES_spiritfirst_IU_GC_2a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.10
+   non_core_manpower = 0.1
+   resistance_target = -0.15
+   compliance_gain = 0.2
+   stability_weekly = 0.001
+   }
+}
+ LES_spiritfirst_IU_GC_2b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.10
+   non_core_manpower = 0.1
+   resistance_target = -0.15
+   compliance_gain = 0.3
+   stability_weekly = 0.002
+   }
+}
+ LES_spiritfirst_IU_KA = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.10
+   non_core_manpower = 0.1
+   resistance_target = -0.15
+   consumer_goods_factor = 0.05
+   }
+}
+ LES_spiritfirst_IU_KA2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.10
+   non_core_manpower = 0.1
+   resistance_target = -0.15
+   consumer_goods_factor = 0.05
+   research_speed_factor = 0.05
+   }
+}
    LES_femoidsliberated = {
    picture = GFX_idea_minority_troubles 
    allowed = {
@@ -642,11 +1496,305 @@ LES_Fiercest_Infantry = {
       }
      removal_cost = -1
    modifier = {
-   MONTHLY_POPULATION = -0.25
-   consumer_goods_factor = 0.05
-   industrial_capacity_factory = 0.15
+   MONTHLY_POPULATION = -0.1
+   consumer_goods_factor = 0.02
+   industrial_capacity_factory = 0.05
    }
 }
+   LES_femoidsliberated_1 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = -0.125
+   consumer_goods_factor = 0.02
+   industrial_capacity_factory = 0.05
+   production_speed_arms_factory_factor = -0.05
+   production_speed_industrial_complex_factor = 0.05
+   }
+}
+   LES_femoidsliberated_1a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = -0.150
+   consumer_goods_factor = 0.03
+   industrial_capacity_factory = 0.05
+   production_speed_arms_factory_factor = -0.05
+   production_speed_industrial_complex_factor = 0.05
+   conscription_factor = 0.05
+   }
+}
+   LES_femoidsliberated_1b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = -0.175
+   consumer_goods_factor = 0.04
+   industrial_capacity_factory = 0.05
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.1
+   conscription_factor = 0.1
+   }
+}
+   LES_femoidsliberated_2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = -0.25
+   consumer_goods_factor = 0.06
+   industrial_capacity_factory = 0.1
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   }
+}
+   LES_femoidsliberated_2a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = -0.35
+   consumer_goods_factor = 0.08
+   industrial_capacity_factory = 0.125
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   research_speed_factor = 0.02
+   }
+}
+   LES_femoidsliberated_2b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = -0.50
+   consumer_goods_factor = 0.1
+   industrial_capacity_factory = 0.15
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   research_speed_factor = 0.04
+   }
+}
+   LES_femoidsliberated_A2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = -0.05
+   consumer_goods_factor = 0.04
+   industrial_capacity_factory = 0.05
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.1
+   conscription_factor = 0.1
+   }
+}
+   LES_femoidsliberated_A2a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   consumer_goods_factor = 0.02
+   production_speed_arms_factory_factor = -0.1
+   industrial_capacity_factory = 0.025
+   production_speed_industrial_complex_factor = 0.1
+   conscription_factor = 0.1
+   }
+}
+   LES_femoidsliberated_A2b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = 0.10
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.1
+   conscription_factor = 0.1
+   }
+}
+   LES_femoidsliberated_C_1 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.025
+   }
+}
+   LES_femoidsliberated_C_1a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = 0.1
+   }
+}
+   LES_femoidsliberated_C_1b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = 0.2
+   industrial_capacity_factory = -0.025
+   }
+}
+   LES_femoidsliberated_C_2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = 0.30
+   }
+}
+   LES_femoidsliberated_C_2a1 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = 0.45
+   industrial_capacity_factory = -0.025
+   }
+}
+   LES_femoidsliberated_C_2b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+      }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = 0.60  
+   industrial_capacity_factory = -0.05
+   }
+}
+   LES_femoidsliberated_C_2A = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = 0.1
+   industrial_capacity_factory = 0.025
+   consumer_goods_factor = 0.02
+   industrial_capacity_factory = 0.05
+   production_speed_industrial_complex_factor = 0.05
+   }
+}
+   LES_femoidsliberated_C_2Aa = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   industrial_capacity_factory = 0.05
+   consumer_goods_factor = 0.04
+   industrial_capacity_factory = 0.1
+   production_speed_industrial_complex_factor = 0.1
+   research_speed_factor = 0.02
+   }
+}
+   LES_femoidsliberated_C_2Ab = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   MONTHLY_POPULATION = -0.1
+   industrial_capacity_factory = 0.1
+   consumer_goods_factor = 0.06
+   industrial_capacity_factory = 0.15
+   production_speed_industrial_complex_factor = 0.15
+   research_speed_factor = 0.04
+   }
+}
+
    LES_young_guardiansofyouth = {
    picture = GFX_idea_minority_troubles 
    allowed = {
@@ -657,7 +1805,321 @@ LES_Fiercest_Infantry = {
       }
      removal_cost = -1
    modifier = {
+   drift_defence_factor = 0.1
+   }
+}
+
+   LES_young_guardiansofyouth_A_1 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.1
+   MONTHLY_POPULATION = -0.025
+   consumer_goods_factor = 0.02
+   industrial_capacity_factory = 0.05
+   }
+}
+   LES_young_guardiansofyouth_A_1a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.2
+   MONTHLY_POPULATION = -0.05
+   consumer_goods_factor = 0.03
+   industrial_capacity_factory = 0.05
+   production_speed_arms_factory_factor = -0.05
+   production_speed_industrial_complex_factor = 0.05
+   conscription_factor = 0.05
+   }
+}
+   LES_young_guardiansofyouth_A_1b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.3
+   MONTHLY_POPULATION = -0.075
+   consumer_goods_factor = 0.04
+   industrial_capacity_factory = 0.05
+   production_speed_arms_factory_factor = -0.05
+   production_speed_industrial_complex_factor = 0.1
+   conscription_factor = 0.1
+   }
+}
+   LES_young_guardiansofyouth_A_2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.3
+   MONTHLY_POPULATION = -0.175
+   consumer_goods_factor = 0.06
+   industrial_capacity_factory = 0.1
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   }
+}
+
+   LES_young_guardiansofyouth_A_2a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.4
+   MONTHLY_POPULATION = -0.25
+   consumer_goods_factor = 0.08
+   industrial_capacity_factory = 0.1
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   }
+}
+   LES_young_guardiansofyouth_A_2b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
    drift_defence_factor = 0.5
+   MONTHLY_POPULATION = -0.35
+   consumer_goods_factor = 0.10
+   industrial_capacity_factory = 0.1
+   production_speed_arms_factory_factor = -0.05
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   }
+}
+   LES_young_guardiansofyouth_AB = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.3
+   MONTHLY_POPULATION = 0.025
+   consumer_goods_factor = 0.04
+   industrial_capacity_factory = 0.075
+   production_speed_arms_factory_factor = -0.05
+   production_speed_industrial_complex_factor = 0.1
+   conscription_factor = 0.1
+   }
+}
+
+   LES_young_guardiansofyouth_ABa = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.4
+   MONTHLY_POPULATION = 0.075
+   consumer_goods_factor = 0.02
+   industrial_capacity_factory = 0.05
+   production_speed_arms_factory_factor = -0.05
+   production_speed_industrial_complex_factor = 0.1
+   conscription_factor = 0.1
+   }
+}
+
+   LES_young_guardiansofyouth_ABb = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.5
+   MONTHLY_POPULATION = 0.125
+   industrial_capacity_factory = 0.025
+   production_speed_arms_factory_factor = -0.05
+   production_speed_industrial_complex_factor = 0.1
+   conscription_factor = 0.1
+   }
+}
+   LES_young_guardiansofyouth_C_1 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.1
+   MONTHLY_POPULATION = 0.10
+   industrial_capacity_factory = -0.025
+   }
+}
+   LES_young_guardiansofyouth_C_1a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.2
+   MONTHLY_POPULATION = 0.20
+   industrial_capacity_factory = -0.05
+   }
+}
+   LES_young_guardiansofyouth_C_1b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.3
+   MONTHLY_POPULATION = 0.30
+   industrial_capacity_factory = -0.075
+   }
+}
+   LES_young_guardiansofyouth_C_2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.3
+   MONTHLY_POPULATION = 0.40
+   industrial_capacity_factory = -0.05
+   }
+}
+  LES_young_guardiansofyouth_C_2a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.4
+   MONTHLY_POPULATION = 0.55
+   industrial_capacity_factory = -0.075
+   }
+}
+   LES_young_guardiansofyouth_C_2b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.5
+   MONTHLY_POPULATION = 0.70
+   industrial_capacity_factory = -0.1
+   }
+}
+   LES_young_guardiansofyouth_CA = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.3
+   MONTHLY_POPULATION = 0.15
+   industrial_capacity_factory = -0.05
+   consumer_goods_factor = 0.02
+   industrial_capacity_factory = -0.05
+   production_speed_industrial_complex_factor = 0.05
+   }
+}
+   LES_young_guardiansofyouth_CA1 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.4
+   MONTHLY_POPULATION = 0.10
+   consumer_goods_factor = 0.04
+   industrial_capacity_factory = 0.05
+   production_speed_industrial_complex_factor = 0.10
+   research_speed_factor = 0.02
+   }
+}
+   LES_young_guardiansofyouth_CA2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   drift_defence_factor = 0.5
+   consumer_goods_factor = 0.06
+   industrial_capacity_factory = 0.1
+   production_speed_industrial_complex_factor = 0.15
+   research_speed_factor = 0.04
    }
 }
    LES_femoidssubmit = {
@@ -670,8 +2132,317 @@ LES_Fiercest_Infantry = {
       }
      removal_cost = -1
    modifier = {
-   MONTHLY_POPULATION = 0.25
    stability_weekly = 0.001
+   industrial_capacity_factory = -0.025
+   }
+}
+   LES_femoidssubmit_C_1 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.10
+   industrial_capacity_factory = -0.05
+   }
+}
+   LES_femoidssubmit_C_1a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.25
+   industrial_capacity_factory = -0.075
+   }
+}
+   LES_femoidssubmit_C_1b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.40
+   industrial_capacity_factory = -0.1
+   }
+}
+   LES_femoidssubmit_C_2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.55
+   industrial_capacity_factory = -0.075
+   }
+}
+   LES_femoidssubmit_C_2a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.70
+   industrial_capacity_factory = -0.1
+   }
+}
+   LES_femoidssubmit_C_2b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.90
+   industrial_capacity_factory = -0.15
+   }
+}
+   LES_femoidssubmit_CA = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.30
+   consumer_goods_factor = 0.02
+   industrial_capacity_factory = -0.05
+   }
+}
+   LES_femoidssubmit_CA_2a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.20
+   consumer_goods_factor = 0.04
+   research_speed_factor = 0.02
+   }
+}
+   LES_femoidssubmit_CA_2b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.10
+   consumer_goods_factor = 0.06
+   industrial_capacity_factory = 0.05
+   research_speed_factor = 0.04
+   }
+}
+   LES_femoidssubmit_A_1 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = -0.10
+   industrial_capacity_factory = -0.025
+   consumer_goods_factor = 0.02
+   industrial_capacity_factory = 0.05
+   production_speed_arms_factory_factor = -0.05
+   production_speed_industrial_complex_factor = 0.05
+   }
+}
+   LES_femoidssubmit_A_1a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = -0.15
+   consumer_goods_factor = 0.04
+   production_speed_arms_factory_factor = -0.05
+   production_speed_industrial_complex_factor = 0.1
+   conscription_factor = 0.05
+   }
+}
+   LES_femoidssubmit_A_1b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = -0.2
+   industrial_capacity_factory = 0.025
+   consumer_goods_factor = 0.06
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   }
+}
+  LES_femoidssubmit_A_2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.1
+   consumer_goods_factor = 0.04
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   }
+}
+  LES_femoidssubmit_A_2a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.2
+   industrial_capacity_factory = -0.025
+   consumer_goods_factor = 0.02
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   }
+}
+  LES_femoidssubmit_A_2b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = 0.3
+   industrial_capacity_factory = -0.05
+   production_speed_arms_factory_factor = -0.05
+   production_speed_industrial_complex_factor = 0.10
+   conscription_factor = 0.1
+   }
+}
+   LES_femoidssubmit_AB_2 = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = -0.3
+   industrial_capacity_factory = 0.05
+   consumer_goods_factor = 0.06
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   }
+}
+   LES_femoidssubmit_AB_2a = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = -0.3
+   industrial_capacity_factory = 0.1
+   consumer_goods_factor = 0.06
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   research_speed_factor = 0.02
+   }
+}
+   LES_femoidssubmit_AB_2b = {
+   picture = GFX_idea_minority_troubles 
+   allowed = {
+       always = no
+     }
+   allowed_civil_war = {
+        always = no
+      }
+     removal_cost = -1
+   modifier = {
+   stability_weekly = 0.001
+   MONTHLY_POPULATION = -0.4
+   industrial_capacity_factory = 0.15
+   consumer_goods_factor = 0.06
+   production_speed_arms_factory_factor = -0.1
+   production_speed_industrial_complex_factor = 0.15
+   conscription_factor = 0.1
+   research_speed_factor = 0.04
    }
 }
 	LES_Risk_of_Famine = {
@@ -812,7 +2583,7 @@ LES_Fiercest_Infantry = {
 			}
      removal_cost = -1
 	 modifier = {
-	 min_export = -0.15
+	 min_export = -0.20
 	 industry_air_damage_factor = -0.25
    }
  }

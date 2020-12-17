@@ -754,7 +754,7 @@ GER_local_defense = {
 			}
 			removal_cost = -1
 		modifier = {
-		 enemy_partisan_effect = -0.3
+		 resistance_target = -0.3
 		 stability_factor = 0.05
 		
 }	
@@ -789,7 +789,7 @@ GER_local_defense = {
 			}
 			removal_cost = -1
 		modifier = {
-		 partisan_effect = 0.45
+		 resistance_target = 0.45
 		 conscription = 0.01
 		
 }	

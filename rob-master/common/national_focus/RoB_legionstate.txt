@@ -1914,6 +1914,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		set_country_flag = enablebanish
 		custom_effect_tooltip = les_tt_6
 		}
 	}

@@ -9,7 +9,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = AUS_army_effort
+		id = army_effort
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 0
@@ -29,9 +29,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_equipment_effort
+		id = equipment_effort
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = AUS_army_effort }
+		prerequisite = { focus = army_effort }
 		x = -1
 		y = 1
 		relative_position_id = army_effort
@@ -51,9 +51,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_motorization_effort
+		id = motorization_effort
 		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = AUS_army_effort }
+		prerequisite = { focus = army_effort }
 		bypass = { has_tech = motorised_infantry }
 		x = 1
 		y = 1
@@ -72,9 +72,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_doctrine_effort
+		id = doctrine_effort
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = AUS_army_effort }
+		prerequisite = { focus = army_effort }
 		x = 0
 		y = 2
 		relative_position_id = army_effort
@@ -94,9 +94,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_equipment_effort_2
+		id = equipment_effort_2
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = AUS_equipment_effort }
+		prerequisite = { focus = equipment_effort }
 		x = 0
 		y = 2
 		relative_position_id = equipment_effort
@@ -116,9 +116,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_mechanization_effort
+		id = mechanization_effort
 		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = AUS_motorization_effort }
+		prerequisite = { focus = motorization_effort }
 		x = 0
 		y = 2
 		relative_position_id = motorization_effort
@@ -137,9 +137,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_doctrine_effort_2
+		id = doctrine_effort_2
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = AUS_doctrine_effort }
+		prerequisite = { focus = doctrine_effort }
 		x = 0
 		y = 2
 		relative_position_id = doctrine_effort
@@ -159,9 +159,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_equipment_effort_3
+		id = equipment_effort_3
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = AUS_equipment_effort_2 }
+		prerequisite = { focus = equipment_effort_2 }
 		x = 0
 		y = 2
 		relative_position_id = equipment_effort_2
@@ -181,9 +181,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_armor_effort
+		id = armor_effort
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = AUS_mechanization_effort }
+		prerequisite = { focus = mechanization_effort }
 		x = 0
 		y = 2
 		relative_position_id = mechanization_effort
@@ -202,11 +202,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_special_forces
+		id = special_forces
 		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = AUS_equipment_effort_3 }
-		prerequisite = { focus = AUS_doctrine_effort_2 }
-		prerequisite = { focus = AUS_armor_effort }
+		prerequisite = { focus = equipment_effort_3 }
+		prerequisite = { focus = doctrine_effort_2 }
+		prerequisite = { focus = armor_effort }
 		x = 1
 		y = 1
 		relative_position_id = equipment_effort_3
@@ -230,7 +230,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_aviation_effort
+		id = aviation_effort
 		icon = GFX_goal_generic_build_airforce
 		x = 5
 		y = 0
@@ -313,10 +313,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_fighter_focus
+		id = fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = AUS_aviation_effort }
-		mutually_exclusive = { focus = AUS_bomber_focus }
+		prerequisite = { focus = aviation_effort }
+		mutually_exclusive = { focus = bomber_focus }
 		x = -1
 		y = 1
 		relative_position_id = aviation_effort
@@ -341,10 +341,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_bomber_focus
+		id = bomber_focus
 		icon = GFX_goal_generic_air_bomber
-		prerequisite = { focus = AUS_aviation_effort }
-		mutually_exclusive = { focus = AUS_fighter_focus }
+		prerequisite = { focus = aviation_effort }
+		mutually_exclusive = { focus = fighter_focus }
 		x = 1
 		y = 1
 		relative_position_id = aviation_effort
@@ -366,9 +366,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_aviation_effort_2
+		id = aviation_effort_2
 		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = AUS_bomber_focus focus = AUS_fighter_focus }
+		prerequisite = { focus = bomber_focus focus = fighter_focus }
 		x = -1
 		y = 1
 		relative_position_id = bomber_focus
@@ -453,10 +453,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_CAS_effort
+		id = CAS_effort
 		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = AUS_aviation_effort_2 }
-		prerequisite = { focus = AUS_motorization_effort }
+		prerequisite = { focus = aviation_effort_2 }
+		prerequisite = { focus = motorization_effort }
 		x = -1
 		y = 1
 		relative_position_id = aviation_effort_2
@@ -476,10 +476,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_rocket_effort
+		id = rocket_effort
 		icon = GFX_focus_rocketry
-		prerequisite = { focus = AUS_aviation_effort_2 }
-		prerequisite = { focus = AUS_infrastructure_effort }
+		prerequisite = { focus = aviation_effort_2 }
+		prerequisite = { focus = infrastructure_effort }
 		x = 0
 		y = 2
 		relative_position_id = aviation_effort_2
@@ -507,10 +507,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_NAV_effort
+		id = NAV_effort
 		icon = GFX_goal_generic_air_naval_bomber
-		prerequisite = { focus = AUS_aviation_effort_2 }
-		prerequisite = { focus = AUS_flexible_navy }
+		prerequisite = { focus = aviation_effort_2 }
+		prerequisite = { focus = flexible_navy }
 		x = 1
 		y = 1
 		relative_position_id = aviation_effort_2
@@ -530,7 +530,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_naval_effort
+		id = naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 9
 		y = 0
@@ -656,10 +656,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_flexible_navy
+		id = flexible_navy
 		icon = GFX_goal_generic_build_navy
-		prerequisite = { focus = AUS_naval_effort }
-		mutually_exclusive = { focus = AUS_large_navy }
+		prerequisite = { focus = naval_effort }
+		mutually_exclusive = { focus = large_navy }
 		x = -1
 		y = 1
 		relative_position_id = naval_effort
@@ -696,10 +696,10 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_large_navy
+		id = large_navy
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		prerequisite = { focus = AUS_naval_effort }
-		mutually_exclusive = { focus = AUS_flexible_navy }
+		prerequisite = { focus = naval_effort }
+		mutually_exclusive = { focus = flexible_navy }
 		x = 1
 		y = 1
 		relative_position_id = naval_effort
@@ -732,9 +732,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_submarine_effort
+		id = submarine_effort
 		icon = GFX_goal_generic_navy_submarine
-		prerequisite = { focus = AUS_flexible_navy focus = large_navy }
+		prerequisite = { focus = flexible_navy focus = large_navy }
 		x = 0
 		y = 1
 		relative_position_id = flexible_navy
@@ -768,9 +768,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_cruiser_effort
+		id = cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = AUS_large_navy focus = AUS_flexible_navy }
+		prerequisite = { focus = large_navy focus = flexible_navy }
 		x = 0
 		y = 1
 		relative_position_id = large_navy
@@ -805,9 +805,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_destroyer_effort
+		id = destroyer_effort
 		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = AUS_submarine_effort }
+		prerequisite = { focus = submarine_effort }
 		x = 0
 		y = 1
 		relative_position_id = submarine_effort
@@ -841,9 +841,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_capital_ships_effort
+		id = capital_ships_effort
 		icon = GFX_goal_generic_navy_battleship
-		prerequisite = { focus = AUS_cruiser_effort }
+		prerequisite = { focus = cruiser_effort }
 		x = 0
 		y = 1
 		relative_position_id = cruiser_effort
@@ -880,7 +880,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_industrial_effort
+		id = industrial_effort
 		icon = GFX_goal_generic_production
 		x = 13
 		y = 0
@@ -921,9 +921,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_construction_effort
+		id = construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = AUS_industrial_effort }
+		prerequisite = { focus = industrial_effort }
 		x = -1
 		y = 1
 		relative_position_id = industrial_effort
@@ -994,9 +994,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_production_effort
+		id = production_effort
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = AUS_industrial_effort }
+		prerequisite = { focus = industrial_effort }
 		x = 1
 		y = 1
 		relative_position_id = industrial_effort
@@ -1066,9 +1066,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_construction_effort_2
+		id = construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = AUS_construction_effort }
+		prerequisite = { focus = construction_effort }
 		x = 0
 		y = 1
 		relative_position_id = construction_effort
@@ -1138,9 +1138,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_production_effort_2
+		id = production_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = AUS_production_effort }
+		prerequisite = { focus = production_effort }
 		x = 0
 		y = 1
 		relative_position_id = production_effort
@@ -1210,9 +1210,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_infrastructure_effort
+		id = infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = AUS_construction_effort_2 }
+		prerequisite = { focus = construction_effort_2 }
 		x = 0
 		y = 1
 		relative_position_id = construction_effort_2
@@ -1304,9 +1304,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_production_effort_3
+		id = production_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = AUS_production_effort_2 }
+		prerequisite = { focus = production_effort_2 }
 		x = 0
 		y = 1
 		relative_position_id = production_effort_2
@@ -1376,9 +1376,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_infrastructure_effort_2
+		id = infrastructure_effort_2
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = AUS_infrastructure_effort }
+		prerequisite = { focus = infrastructure_effort }
 		x = 0
 		y = 1
 		relative_position_id = infrastructure_effort
@@ -1470,9 +1470,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_construction_effort_3
+		id = construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = AUS_infrastructure_effort }
+		prerequisite = { focus = infrastructure_effort }
 		x = 2
 		y = 1
 		relative_position_id = infrastructure_effort
@@ -1542,9 +1542,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_nuclear_effort
+		id = nuclear_effort
 		icon = GFX_focus_wonderweapons
-		prerequisite = { focus = AUS_infrastructure_effort_2 }
+		prerequisite = { focus = infrastructure_effort_2 }
 		x = -2
 		y = 1
 		relative_position_id = infrastructure_effort_2
@@ -1570,9 +1570,9 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_extra_tech_slot
+		id = extra_tech_slot
 		icon = GFX_focus_research
-		prerequisite = { focus = AUS_infrastructure_effort_2 }
+		prerequisite = { focus = infrastructure_effort_2 }
 		x = 0
 		y = 1
 		relative_position_id = infrastructure_effort_2
@@ -1586,9 +1586,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = AUS_extra_tech_slot_2
+		id = extra_tech_slot_2
 		icon = GFX_focus_research
-		prerequisite = { focus = AUS_extra_tech_slot }
+		prerequisite = { focus = extra_tech_slot }
 		available = {
 			num_of_factories > 50
 		}
@@ -1607,9 +1607,9 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = AUS_secret_weapons
+		id = secret_weapons
 		icon = GFX_goal_generic_secret_weapon
-		prerequisite = { focus = AUS_infrastructure_effort_2 }
+		prerequisite = { focus = infrastructure_effort_2 }
 		x = 2
 		y = 1
 		relative_position_id = infrastructure_effort_2
@@ -1687,7 +1687,7 @@ focus_tree = {
 		x = 18
 		y = 0
 		available = {
-		has_country_flag = AUS_civil_war_ended
+		has_country_flag = civil_war_ended
 		}
 		cost = 10
 		available_if_capitulated = no

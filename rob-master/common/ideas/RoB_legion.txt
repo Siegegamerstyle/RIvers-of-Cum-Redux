@@ -107,7 +107,8 @@ LES_Fiercest_Infantry = {
 			}
      removal_cost = -1
 	 modifier = {
-	 enemy_partisan_effect = -0.1
+   resistance_target = -0.1
+   resistance_damage_to_garrison = -0.1
 	 }
 
 }
@@ -436,7 +437,7 @@ LES_Fiercest_Infantry = {
    modifier = {
    conscription = 0.0125
    army_org = 3
-   enemy_partisan_effect = -0.25
+   resistance_target = -0.25
    decryption_factor = 0.2
    }
 }
@@ -452,7 +453,7 @@ LES_Fiercest_Infantry = {
    modifier = {
    conscription = 0.0125
    army_org = 3
-   partisan_effect = 0.25
+   compliance_gain = 0.1
    encryption_factor = 0.2
    }
 }
@@ -468,7 +469,7 @@ LES_Fiercest_Infantry = {
    modifier = {
    conscription = 0.0125
    army_org = 3
-   enemy_partisan_effect = -0.25
+   resistance_target = -0.25
    decryption_factor = 0.2
    political_power_factor = 0.5
    }
@@ -485,7 +486,7 @@ LES_Fiercest_Infantry = {
    modifier = {
    conscription = 0.0125
    army_org = 3
-   partisan_effect = 0.25
+   compliance_gain = 0.1
    encryption_factor = 0.2
    political_power_factor = 0.5
    }
@@ -502,7 +503,7 @@ LES_Fiercest_Infantry = {
    modifier = {
    conscription = 0.0125
    army_org = 3
-   enemy_partisan_effect = -0.25
+   resistance_target = -0.25
    decryption_factor = 0.2
    surrender_limit = 0.3
    }
@@ -519,7 +520,7 @@ LES_Fiercest_Infantry = {
    modifier = {
    conscription = 0.0125
    army_org = 3
-   partisan_effect = 0.25
+   compliance_gain = 0.1
    encryption_factor = 0.2
    surrender_limit = 0.3
    }
@@ -615,9 +616,9 @@ LES_Fiercest_Infantry = {
       }
      removal_cost = -1
    modifier = {
-   weekly_manpower = -1000
-   stability_weekly = -0.01
-   war_support_weekly = 0.01
+   weekly_manpower = -500
+   stability_weekly = -0.001
+   war_support_weekly = 0.001
    }
 }
    LES_eugenics_RE_1Ba = {
@@ -1755,7 +1756,6 @@ LES_Fiercest_Infantry = {
    MONTHLY_POPULATION = 0.1
    industrial_capacity_factory = 0.025
    consumer_goods_factor = 0.02
-   industrial_capacity_factory = 0.05
    production_speed_industrial_complex_factor = 0.05
    }
 }
@@ -1771,7 +1771,6 @@ LES_Fiercest_Infantry = {
    modifier = {
    industrial_capacity_factory = 0.05
    consumer_goods_factor = 0.04
-   industrial_capacity_factory = 0.1
    production_speed_industrial_complex_factor = 0.1
    research_speed_factor = 0.02
    }
@@ -1787,7 +1786,6 @@ LES_Fiercest_Infantry = {
      removal_cost = -1
    modifier = {
    MONTHLY_POPULATION = -0.1
-   industrial_capacity_factory = 0.1
    consumer_goods_factor = 0.06
    industrial_capacity_factory = 0.15
    production_speed_industrial_complex_factor = 0.15
@@ -2081,7 +2079,6 @@ LES_Fiercest_Infantry = {
    modifier = {
    drift_defence_factor = 0.3
    MONTHLY_POPULATION = 0.15
-   industrial_capacity_factory = -0.05
    consumer_goods_factor = 0.02
    industrial_capacity_factory = -0.05
    production_speed_industrial_complex_factor = 0.05
@@ -2287,7 +2284,6 @@ LES_Fiercest_Infantry = {
    modifier = {
    stability_weekly = 0.001
    MONTHLY_POPULATION = -0.10
-   industrial_capacity_factory = -0.025
    consumer_goods_factor = 0.02
    industrial_capacity_factory = 0.05
    production_speed_arms_factory_factor = -0.05

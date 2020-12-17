@@ -161,11 +161,11 @@ ideas = {
 				war_support_factor = 0.1
 				political_power_gain = 0.16
 				}
-				}
+	}
 				
-				  military_state = {
-  picture = 
-  allowed = {
+	military_state = {
+  	picture = 
+ 	allowed = {
        always = no
      }
 	 allowed_civil_war = {
@@ -177,7 +177,7 @@ ideas = {
 				stability_factor = 0.05
 				political_power_gain = 0.25
 				}
-				}
+	}
 				
 				
 	fanatical_army = {
@@ -196,9 +196,9 @@ ideas = {
 				war_support_factor = 0.1
 				}
 				}
-				every_man_a_gun = {
-  picture = 
-  allowed = {
+	every_man_a_gun = {
+  	picture = 
+  	allowed = {
        always = no
      }
 	 allowed_civil_war = {
@@ -208,11 +208,11 @@ ideas = {
 	 modifier = {
 	            war_support_factor = 0.1
 				}
-				}
+	}
 				
-				corporativist_economics = {
-  picture = GFX_idea_famine_of_1933
-  allowed = {
+	corporativist_economics = {
+  	picture = GFX_idea_famine_of_1933
+  	allowed = {
        always = no
      }
 	 allowed_civil_war = {
@@ -223,7 +223,7 @@ ideas = {
          production_factory_max_efficiency_factor = 0.08
 		 production_speed_buildings_factor = 0.25
 				}
-				}
+	}
  corporativist_economics_2 = {
    picture = GFX_idea_famine_of_1933
   allowed = {
@@ -251,7 +251,7 @@ ideas = {
      removal_cost = -1
 	 modifier = {
 		 production_speed_buildings_factor = 0.25
-		 production_speed_bunkers_factor = 0.25
+		 production_speed_bunker_factor = 0.25
 				}
  }
  
@@ -296,7 +296,7 @@ lithuanian_stormtroopers = {
      removal_cost = -1
 	 picture = GFX_idea_famine_of_1933
 	 modifier = {
-     partisan_effect = 0.5
+     resistance_target = -0.5
 			}
   }
   pride_of_lithuania = {

@@ -6611,7 +6611,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/LIT_jonas_zemaitis.tga"
 	}
 	
- ###General Staff
+ 	###General Staff
  		spriteType = {
 		name = "GFX_idea_LIT_adomas_daugdiras"
 		texturefile = "gfx/interface/ideas/LIT_adomas_daugdiras.tga"
@@ -6653,7 +6653,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/LIT_jonas_cernius.tga"
 	}
 	
-###Designers
+	###Designers
 		spriteType = {
 		name = "GFX_idea_LIT_anbo"
 		texturefile = "gfx/interface/ideas/LIT_anbo.tga"
@@ -6690,5 +6690,21 @@ spriteTypes = {
 		name = "GFX_idea_LIT_palangos_uostas"
 		texturefile = "gfx/interface/ideas/LIT_palangos_uostas.tga"
 	}
-}
+
+	
+	###LEGION STATE IDEAS
+
+	spriteType = {
+		name = "GFX_idea_LES_army"
+		texturefile = "gfx/interface/ideas/LES_army.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_LES_discontent"
+		texturefile = "gfx/interface/ideas/LES_discontent.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_LES_risk_of_famine"
+		texturefile = "gfx/interface/ideas/LES_risk_of_famine.tga"
+	}
+
 }

@@ -328,9 +328,6 @@
 		prerequisite = { 
 			focus = GER_destroyerfocus 
 		}
-		prerequisite = { 
-			focus = GER_ 
-		}
 	}
 
 	#Focus for Transport focus
@@ -391,9 +388,6 @@
 		prerequisite = { 
 			focus = GER_submarineresearch 
 		}
-		prerequisite = { 
-			focus = GER_ 
-		}
 	}
 
 	#Focus for Der Deutsche Kriegsmarine!
@@ -406,7 +400,6 @@
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = GER_germanmarines 
-			focus = GER_ 
 		}
 	}
 
@@ -419,7 +412,6 @@
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_formtheluftwaffe }
-		mutually_exclusive = { focus = GER_PeCkZWot }
 	}
 
 	#Focus for Quantity First

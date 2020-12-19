@@ -3,7 +3,7 @@ ideas = {
  
  ###Russian Soviet Republic
    RSR_nevskoye_design_bureau = {
-   designer = yes
+   
    allowed = { original_tag = SOV }
    picture = RSR_nevskoye_design_bureau
    research_bonus = { naval_equipment = 0.1 }
@@ -16,7 +16,7 @@ ideas = {
  
  ###Lithuania
   LIT_palangos_uostas = {
-   designer = yes
+   
    allowed = { original_tag = LIT }
    picture = LIT_palangos_uostas
    research_bonus = { naval_equipment = 0.1 }
@@ -29,7 +29,7 @@ ideas = {
  
  ###Prussia
   PRS_konigsberger_werften = {
-   designer = yes
+   
    allowed = { original_tag = PRS }
    picture = PRS_konigsberg_wrften
    research_bonus = { naval_equipment = 0.1 }
@@ -41,7 +41,7 @@ ideas = {
   }
   
   PRS_konigsberg_marineacademie = {
-   designer = yes
+   
    allowed = { original_tag = PRS }
    picture = PRS_konigsberg_marineacademie
    research_bonus = { naval_equipment = 0.1 }
@@ -53,7 +53,7 @@ ideas = {
   }
   
   PRS_memel_weften = {
-   designer = yes
+   
    allowed = { original_tag = PRS }
    picture = PRS_memel_wrfen
    research_bonus = { naval_equipment = 0.1 }
@@ -67,7 +67,7 @@ ideas = {
  
  ###Germany (Socialist) 
   GER_hamburg_schiffen = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_hamburg_marine
    research_bonus = { naval_equipment = 0.1 }
@@ -79,7 +79,7 @@ ideas = {
   }
   
   GER_kiel_commune = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_kiel_marine
    cost = 150
@@ -91,7 +91,7 @@ ideas = {
   }
   
   GER_rostock_marine_geschelshafft = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_rostock_marine
    cost = 150

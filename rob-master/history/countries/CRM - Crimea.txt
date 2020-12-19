@@ -1,4 +1,4 @@
-﻿capital = 375 #LA
+﻿capital = 137 #LA
 oob = "CRM_1934"
 
 set_research_slots = 3

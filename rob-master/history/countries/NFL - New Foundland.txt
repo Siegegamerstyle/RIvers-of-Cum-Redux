@@ -38,10 +38,11 @@ set_popularities = {
 	reactionary = 5
 	pelekist = 0
 }
-	ruling_party = democratic
-	last_election = "1935.10.14"
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1933.10.14"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {

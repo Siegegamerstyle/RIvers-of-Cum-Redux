@@ -21,7 +21,7 @@ set_technology = {
 
 set_politics = {
 	ruling_party = pelekist
-	last_election = "1934.7.1"
+	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -36,16 +36,7 @@ set_popularities = {
 	reactionary = 17
 	pelekist = 74
 }
-create_country_leader = {
-	name = "Heinrich Himmler"
-	desc = "ANTE_PAVELIC_DESC"
-	picture = "HeinrichHimmler.tga"
-	expire = "1965.1.1"
-	ideology = pelekist
-	traits = {
-		#
-	}
-}
+
 
 create_country_leader = {
 	name = "Heinrich Himmler"

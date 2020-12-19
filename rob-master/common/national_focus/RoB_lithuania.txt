@@ -1400,9 +1400,6 @@ add_political_power = 120
 		prerequisite = { 
 			focus = LIT_masspublicspending 
 		}
-		prerequisite = { 
-			focus = LIT_ 
-		}
 		completion_reward = {
 		add_ideas = { martial_society }
 		189 = {
@@ -1430,10 +1427,7 @@ add_building_construction = {
 		prerequisite = { 
 			focus = LIT_hiearchicalsociety 
 		}
-		prerequisite = { 
-			focus = LIT_ 
-		}
-		completion_reward = {
+		completion_reward = c{
 		add_ideas = { 
 		needless_society
 		}
@@ -3627,9 +3621,6 @@ add_extra_state_shared_building_slots = 2
 		prerequisite = { 
 			focus = LIT_bantheperknininkai 
 		}
-		prerequisite = { 
-			focus = LIT_ 
-		}
 		completion_reward = {
 		add_political_power = 120
 		}
@@ -3696,15 +3687,12 @@ completion_reward = {
 			focus = LIT_defensivedoctrine 
 		}
 		mutually_exclusive = { 
-			focus = LIT_mobiledoctrine
+			focus = LIT_mobiledoctrineii
 		}
 		mutually_exclusive = { 
 			focus = LIT_trenchwarfare 
 		}
-		mutually_exclusive = { 
-			focus = LIT_ 
-		}
-						completion_reward = {
+	completion_reward = {
 		 add_tech_bonus = {
 	name = mass_artillery
 	bonus = 1.0
@@ -3804,9 +3792,6 @@ completion_reward = {
 		}
 		mutually_exclusive = { 
 			focus = LIT_endtheanbomonpoly 
-		}
-		mutually_exclusive = { 
-			focus = LIT_ 
 		}
 		completion_reward = {
 		 add_tech_bonus = {
@@ -4341,9 +4326,6 @@ add_extra_state_shared_building_slots = 2
 		prerequisite = { 
 			focus = LIT_prepareforpartisanwarfare 
 		}
-		prerequisite = { 
-			focus = LIT_ 
-		}
 				completion_reward = {
                  add_ideas = { LIT_lion_of_defence }
 		}
@@ -4752,9 +4734,6 @@ add_extra_state_shared_building_slots = 2
 		}
 		mutually_exclusive = { 
 			focus = LIT_massartilleryfire 
-		}
-		mutually_exclusive = { 
-			focus = LIT_ 
 		}
 		completion_reward = {
 		 add_tech_bonus = {

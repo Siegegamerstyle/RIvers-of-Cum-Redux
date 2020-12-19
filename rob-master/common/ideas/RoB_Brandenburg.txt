@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		Economic_transition = {
-			picture = 
+			picture = GFX_idea_minority_troubles
 			allowed = {
 				tag = BDB
 			}
@@ -21,7 +21,7 @@ ideas = {
 			}
 		}
 		Rampant_prostitution = {
-			picture = 
+			picture = GFX_idea_minority_troubles
 			allowed = {
 				tag = BDB
 			}
@@ -39,7 +39,7 @@ ideas = {
 			}
 		}
 		Cleansed_intellectuals = {
-			picture = 
+			picture = GFX_idea_minority_troubles
 			allowed = {
 				tag = BDB
 			}
@@ -56,7 +56,7 @@ ideas = {
 			}
 		}
 		anarchy_in_streets = {
-			picture = 
+			picture = GFX_idea_minority_troubles
 			allowed = {
 				tag = BDB
 			}

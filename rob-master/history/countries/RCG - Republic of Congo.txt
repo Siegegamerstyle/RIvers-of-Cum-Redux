@@ -8,11 +8,11 @@ set_technology = {
 set_convoys = 20
 
 
-seset_politics = {
+set_politics = {
 	ruling_party = reactionary
 	last_election = "1926.6.7"
 	election_frequency = 72
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	national_socialist = 0

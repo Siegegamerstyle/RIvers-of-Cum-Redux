@@ -23,7 +23,7 @@ set_politics = {
 	ruling_party = social_liberal
 	last_election = "1931.10.25"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	national_socialist = 0
@@ -40,7 +40,6 @@ set_popularities = {
 
 
 add_ideas = {
-	neutrality_idea	
 	limited_conscription
 }
 

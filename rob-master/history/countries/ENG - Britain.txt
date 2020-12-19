@@ -96,81 +96,10 @@ if = {
 		improved_secondary_battery = 1
 		basic_fire_control_system = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
-	set_global_flag = MTG_second_london_conference
-	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
-}
-
-set_variable = { var = eng_gateway_to_europe_influence value = 0 }
-
-add_ideas = {
-	stiff_upper_lip
-	ENG_the_war_to_end_all_wars
-	george_v
 }
 	
 
 set_convoys = 800
-
-# DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = BRJ
-		autonomous_state = autonomy_integrated_puppet
-	}
-	
-	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = EGY
-		autonomous_state = autonomy_integrated_puppet
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = OTT
-		autonomous_state = autonomy_integrated_puppet
-		freedom_level = 0.2
-	}
-	else = {
-		puppet = MAL
-		puppet = BRJ
-		puppet = CAN
-		puppet = SAF
-		puppet = AST
-		puppet = NZL
-		puppet = EGY
-		puppet = OTT
-
-	}
-}
 
 
 if = {
@@ -202,8 +131,6 @@ set_popularities = {
 
 
 
-
-#give_guarantee = CZE
 
 # Order matters - here Chamberlain becomes starting leader
 

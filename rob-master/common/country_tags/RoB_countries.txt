@@ -1,25 +1,14 @@
 ##Europe##
 CAT = "countries/Catalonia.txt"
 LIE = "countries/Liechtenstein.txt"
-KTS = "countries/Kingdom of Two Sicilies.txt"
-SIC = "countries/Sicily.txt"
-PIE = "countries/Piedmont.txt"
-BAV = "countries/Bavaria.txt"
 PRS = "countries/Prussia.txt"
 MCO = "countries/Monaco.txt"
 ADR = "countries/Andorra.txt"
-SMR = "countries/San Marino.txt"
-VCT = "countries/Vatican.txt"
 KOS = "countries/Kosovo.txt"
 MRV = "countries/Moravia.txt"
-WUR = "countries/Wurttemburg.txt"
-SAR = "countries/Saar.txt"
-SAX = "countries/Saxony.txt"
-DAN = "countries/Danzig.txt"
 FLA = "countries/Flanders.txt"
 WLL = "countries/Wallonia.txt"
 BGN = "countries/Burgundy.txt"
-RHN = "countries/Rhineland.txt"
 BRT = "countries/Brittany.txt"
 FTT = "countries/Free Territory.txt"
 CAU = "countries/Caucasus.txt"
@@ -39,6 +28,8 @@ RMR = "countries/Romanian Republic.txt"
 TIG = "countries/Transylvanian Iron Guard.txt"
 SZK = "countries/Szekely.txt"
 OTT = "countries/Ottomans.txt"
+
+##Baltics
 ECA = "countries/Estonian Communist Assembly.txt"
 ELP = "countries/Estonian Liberal Pact.txt"
 ELA = "countries/Estonian Liberation Army.txt"
@@ -46,16 +37,38 @@ LPR = "countries/Latgallian Peoples Republic.txt"
 LDF = "countries/Latvian Democratic Front.txt"
 LNC = "countries/Latvian National Council.txt"
 
-##America##
-GRL = "countries/Greenland.txt"
-CAL = "countries/California.txt"
-TEX = "countries/Texas.txt"
-QUE = "countries/Quebec.txt"
-NFL = "countries/New Foundland.txt"
-YUC = "countries/Yucatan.txt"
+###Italy
+SMR = "countries/San Marino.txt"
+VNI = "countries/Venice.txt"
+UMB = "countries/Umbria.txt"
+TUS = "countries/Tuscany.txt"
+SAV = "countries/Umbria.txt"
+LOM = "countries/Lombardy.txt"
+RMN = "countries/Romagna.txt"
+VCT = "countries/Vatican.txt"
+KTS = "countries/Kingdom of Two Sicilies.txt"
+SIC = "countries/Sicily.txt"
+PIE = "countries/Piedmont.txt"
 
-#Middle-East
-BHR = "countries/Bahrain.txt"
+
+###German
+BDB = "countries/Brandenburg.txt"
+MSZ = "countries/Mecklenburg_Strelitz.txt"
+POM = "countries/Pomerania.txt"
+BAD = "countries/Baden.txt"
+WUR = "countries/wurttemberg.txt"
+RHN = "countries/Rhineland.txt"
+HES = "countries/Hesse.txt"
+SAR = "countries/Saar.txt"
+DAN = "countries/Danzig.txt"
+SAX = "countries/Saxony.txt"
+BAV = "countries/Bavaria.txt"
+SWH = "countries/schleswig_holstein.txt"
+TRG = "countries/Thuringia.txt"
+OLD = "countries/Oldenburg.txt"
+HAN = "countries/Hanover.txt"
+SIL = "countries/Silizia.txt"
+SUD = "countries/Sudetenland.txt"
 
 ##Reich##
 RKU = "countries/RKU.txt"
@@ -67,6 +80,16 @@ NID = "countries/Niederlande.txt"
 GGO = "countries/Generalgouvernement.txt"
 PBM = "countries/Bohmen un Mahren.txt"
 
+##America##
+GRL = "countries/Greenland.txt"
+CAL = "countries/California.txt"
+TEX = "countries/Texas.txt"
+QUE = "countries/Quebec.txt"
+NFL = "countries/New Foundland.txt"
+YUC = "countries/Yucatan.txt"
+
+#Middle-East
+BHR = "countries/Bahrain.txt"
 
 ##Russian Far East##
 JVD = "countries/Japanese Vladivostok.txt"
@@ -131,20 +154,6 @@ ZHU = "countries/Zhuang.txt"
 JBS = "countries/Hail.txt"
 ASR = "countries/Asir.txt"
 HJZ = "countries/Hejaz.txt"
-
-###German
-BDB = "countries/Brandenburg.txt"
-MSZ = "countries/Mecklenburg_Strelitz.txt"
-POM = "countries/Pomerania.txt"
-BAD = "countries/Baden.txt"
-WUR = "countries/wurttemberg.txt"
-HES = "countries/Hesse.txt"
-SWH = "countries/schleswig_holstein.txt"
-TRG = "countries/Thuringia.txt"
-OLD = "countries/Oldenburg.txt"
-HAN = "countries/Hanover.txt"
-SIL = "countries/Silizia.txt"
-SUD = "countries/Sudetenland.txt"
 
 
 ##Africa###

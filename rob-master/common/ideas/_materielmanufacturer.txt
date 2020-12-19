@@ -3,7 +3,7 @@ ideas = {
  
  ###RSR
   RSR_grabin_design_bureau = {
-  designer = yes
+  
    picture = RSR_grabin
    allowed = { original_tag = SOV }
    cost = 150  
@@ -15,7 +15,7 @@ ideas = {
   }
   
   RSR_tula_arms_plant = {
-  designer = yes
+  
    picture = RSR_tula
    allowed = { original_tag = SOV }
    cost = 150  
@@ -29,7 +29,7 @@ ideas = {
  ###Lithuania
  
   LIT_ginklu_fondas = {
-  designer = yes
+  
    picture = LIT_ginklu_fondas
    allowed = { original_tag = LIT }
    cost = 150  
@@ -41,7 +41,7 @@ ideas = {
   }
 
   LIT_linkaiciu_artilerijos_dirbtuves = {
-  designer = yes
+  
    picture = LIT_linkaiciu_artilerijos_dirbtuves
    allowed = { original_tag = LIT }
    cost = 150  
@@ -53,7 +53,7 @@ ideas = {
   }  
  
   LIT_kauno_ginklai = {
-  designer = yes
+  
    picture = LIT_kauno_ginklai
    allowed = { original_tag = LIT }
    cost = 150 
@@ -66,7 +66,7 @@ ideas = {
   } 
  ###Prussia
   PRS_mauser = {
-  designer = yes
+  
    picture = PRS_mauser
    allowed = { original_tag = PRS }
    cost = 150  
@@ -78,7 +78,7 @@ ideas = {
   }
   
   PRS_carl_walther = {
-  designer = yes
+  
   picture = PRS_walther
   allowed = { original_tag = PRS }
   cost = 150
@@ -95,7 +95,7 @@ ideas = {
   }
   
    PRS_rheinmetal = {
-   designer = yes
+   
    allowed = { original_tag = PRS }
    picture = PRS_rheinmetal
    cost = 150  
@@ -108,7 +108,7 @@ ideas = {
  
  ###Germany (Socialist)
   GER_socializtche_gewehre = {
-   designer = yes
+   
    picture = GER_rote_quadrat
    allowed = { original_tag = GER }
    cost = 150  
@@ -125,7 +125,7 @@ ideas = {
    }
    
    GER_berlin_arsenal = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_berlin_arsenal
    cost = 150  
@@ -142,7 +142,7 @@ ideas = {
    }
    
    GER_rhur_arsenal = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_rur_arsenal
    cost = 150  
@@ -159,7 +159,7 @@ ideas = {
    }
  
    GER_rostock_arsenal = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_rostock_arsenal
    cost = 150  

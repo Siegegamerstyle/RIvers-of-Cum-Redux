@@ -372,7 +372,6 @@ shared_focus = GER_formtheluftwaffe
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = GER_JeOCFyGx }
 		ai_will_do = {
 			factor = 1
 		}

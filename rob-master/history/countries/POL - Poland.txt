@@ -68,10 +68,6 @@ if = {
 
 add_ideas = {
 	limited_conscription
-	POL_shat_economy
-	POL_overstrenched_military
-	POL_supurior_minorities
-	POL_ukraine_bombings
 
 }
 
@@ -237,7 +233,7 @@ create_corps_commander = {
 	name = "Artur Gorski"
 	portrait_path = "gfx/leaders/POL/Portrait_Poland_Artur_Gorski.tga"
 	traits = {
-		artillery_officer
+		fortress_buster
 	}
 	skill = 1
 	attack_skill = 1

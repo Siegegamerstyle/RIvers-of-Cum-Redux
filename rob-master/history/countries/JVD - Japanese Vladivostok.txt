@@ -27,7 +27,7 @@ set_politics = {
 	ruling_party = authoritharian
 	last_election = "1931.12.19"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	national_socialist = 0

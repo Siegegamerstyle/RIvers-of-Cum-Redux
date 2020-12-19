@@ -53,11 +53,11 @@ set_politics = {
 set_popularities = {
 	national_socialist = 4
 	socialist = 4
-	democratic_socialist = 3
+	democratic_socialist = 2
 	social_democracy = 2
 	social_liberal = 2
 	conservative = 81
-	authoritharian = 2
+	authoritharian = 3
 	reactionary = 2
 	pelekist = 1
 }

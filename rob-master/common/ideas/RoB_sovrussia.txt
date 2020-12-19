@@ -69,7 +69,7 @@ ideas = {
 	 modifier = {
      army_org_factor = -0.1
 	 offence = -0.15
-	 enemy_partisan_effect = 0.5
+	 resistance_target = 0.5
 	 army_morale_factor = -0.05
 	 defence = 0.2
     }

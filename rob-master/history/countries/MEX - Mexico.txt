@@ -60,9 +60,9 @@ set_popularities = {
 
 set_politics = {
 	ruling_party = social_liberal
-	last_election = "1936.1.1"
+	last_election = "1934.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -92,7 +92,7 @@ create_country_leader = { # Exiled until 1935 following a rebellion attempt, all
 	desc = "POLITICS_ADOLFO_DE_LA_HUERTA_DESC"
 	picture = "GFX_Portrait_MEX_Adolfo_de_la_Huerta"
 	expire = "1965.1.1"
-	ideology = conservatism_subtype
+	ideology = conservative_subtype
 	traits = {
 		#
 	}

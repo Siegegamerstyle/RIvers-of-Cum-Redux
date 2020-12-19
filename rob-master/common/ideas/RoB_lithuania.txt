@@ -33,7 +33,7 @@ ideas = {
  }
 
    pelekists_rising = {
-   picture =
+   picture = GFX_idea_minority_troubles
    allowed = {
        always = no
 	   }
@@ -92,7 +92,7 @@ ideas = {
 				}
 				}
 				  loyal_military = {
-  picture = 
+  picture = GFX_idea_minority_troubles
   allowed = {
        always = no
      }
@@ -164,7 +164,7 @@ ideas = {
 	}
 				
 	military_state = {
-  	picture = 
+  	picture = GFX_idea_minority_troubles
  	allowed = {
        always = no
      }
@@ -197,7 +197,7 @@ ideas = {
 				}
 				}
 	every_man_a_gun = {
-  	picture = 
+  	picture = GFX_idea_minority_troubles
   	allowed = {
        always = no
      }

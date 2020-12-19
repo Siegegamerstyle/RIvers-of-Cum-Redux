@@ -43,7 +43,7 @@ set_popularities = {
 	social_democracy = 0
 	social_liberal = 0
 	conservative = 45
-	authoritharian = 3
+	authoritharian = 2
 	reactionary = 31
 	pelekist = 22
 }

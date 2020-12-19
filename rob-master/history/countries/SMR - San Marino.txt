@@ -36,7 +36,6 @@ set_popularities = {
 	pelekist = 43
 }
 add_ideas = {
-	neutrality_idea	
 	limited_conscription
 }
 

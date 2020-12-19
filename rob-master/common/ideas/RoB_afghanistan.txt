@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		sword_of_islam = {
-			picture = 
+			picture = GFX_idea_minority_troubles
 			allowed = {
 				tag = AFG
 			}

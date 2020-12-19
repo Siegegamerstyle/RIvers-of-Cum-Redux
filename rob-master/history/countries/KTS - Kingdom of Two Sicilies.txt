@@ -37,25 +37,21 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 15
-		}
-
-		fascism = {
-			popularity = 10
-		}
-		
-		neutrality = {
-			popularity = 75
-		}
-	}
-	
-	ruling_party = neutrality
-	last_election = "1934.5.26"
-	election_frequency = 50
+	ruling_party = authoritharian
+	last_election = "1931.12.19"
+	election_frequency = 48
 	elections_allowed = no
+}
+set_popularities = {
+	national_socialist = 0
+	socialist = 0
+	democratic_socialist = 0
+	social_democracy = 0
+	social_liberal = 10
+	conservative = 11
+	authoritharian = 45
+	reactionary = 24
+	pelekist = 10
 }
 
 
@@ -65,7 +61,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Kingdom of Two Sicilies_Prince Ferdinand Pius.dds"
 	expire = "1960.1.1"
-	ideology = despotism
+	ideology = authoritharian_subtype
 	traits = {
 		
 	}
@@ -76,7 +72,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Kingdom of Two Sicilies_Prince Ferdinand Pius.dds"
 	expire = "1960.1.1"
-	ideology = fascism_ideology
+	ideology = pelekist_subtype
 	traits = {
 		
 	}
@@ -87,7 +83,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/portrait_europe_generic_1.dds"
 	expire = "1960.1.1"
-	ideology = marxism
+	ideology = marxism_leninism
 	traits = {
 		
 	}
@@ -98,7 +94,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/portrait_europe_generic_2.dds"
 	expire = "1960.1.1"
-	ideology = conservatism
+	ideology = conservative_subtype
 	traits = {
 		
 	}

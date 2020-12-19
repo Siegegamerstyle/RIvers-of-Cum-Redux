@@ -1,5 +1,5 @@
 state_categories={
-	pastoral = {
+	small_territory = {
 		local_building_slots = 1
 	
 		color = { 160 160 0 }

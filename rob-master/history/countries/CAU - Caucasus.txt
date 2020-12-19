@@ -1,4 +1,4 @@
-capital = 657
+capital = 217
 oob = "CAU_1934"
 set_research_slots = 3
 
@@ -39,7 +39,7 @@ set_popularities = {
 	reactionary = 89
 	pelekist = 0
 }
-portrait_Afrikan Bogaevsky.tga
+
 create_country_leader = {
 	name = "Pyotr Wrangel"
 	desc = "POLITICS_Afrikan_Bogaevsky_DESC"

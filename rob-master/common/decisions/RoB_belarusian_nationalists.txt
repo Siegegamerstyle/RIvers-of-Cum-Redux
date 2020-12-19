@@ -9,10 +9,8 @@ BLR_power_struggle = {
    NOT = { 
 	has_government = authoritharian
   } 
-    	ai_will_do = {
-			base = 20
-			}
   }
+  ai_will_do = { base = 20 }
   complete_effect = {
    add_to_variable = { var = BLR_pelekist_strenght value = 1 }
    add_popularity = { ideology = pelekist popularity = 0.02 }
@@ -29,10 +27,8 @@ BLR_power_struggle = {
     NOT = { 
 	has_government = authoritharian
   }
-    	ai_will_do = {
-			base = 20
-			}
   }
+  ai_will_do = { base = 20 }
   complete_effect = {
    add_to_variable = { var = BLR_pelekist_strenght value = 1 }
    add_popularity = { ideology = pelekist popularity = 0.02 }
@@ -79,13 +75,11 @@ BLR_power_struggle = {
     value = 2
     compare = greater_than
 }
-  	ai_will_do = {
-			base = 10
-			}
    NOT = { 
 	has_government = authoritharian
   }
   }
+  ai_will_do = { base = 20 }
   complete_effect = {
    add_to_variable = { var = BLR_pelekist_strenght value = 1 }
    add_popularity = { ideology = pelekist popularity = 0.02 }

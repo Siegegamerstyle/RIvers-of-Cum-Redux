@@ -4,7 +4,7 @@ ideas = {
  
  ###Russian Soviet Republic
   RSR_kmdb = {
-  designer = yes
+  
    allowed = { original_tag = SOV }
    picture = RSR_kmdb
    cost = 150
@@ -16,7 +16,7 @@ ideas = {
   }
   
   RSR_okmo = {
-  designer = yes
+  
    allowed = { original_tag = SOV }
    picture = RSR_okmo
    cost = 150
@@ -31,7 +31,7 @@ ideas = {
  
  ###Lithuania
   LIT_metalas = {
-  designer = yes
+  
    allowed = { original_tag = LIT }
    picture = LIT_metalas
    cost = 250
@@ -50,7 +50,7 @@ ideas = {
  
  ###Prussia
   PRS_konigsberg_arsenal = {
-  designer = yes
+  
    allowed = { original_tag = PRS }
    picture = PRS_kongisberg_arsenal
    cost = 150
@@ -68,7 +68,7 @@ ideas = {
   }
   
   PRS_porsche = {
-  designer = yes
+  
    allowed = { original_tag = PRS }
    picture = PRS_porsche
    cost = 150
@@ -87,7 +87,7 @@ ideas = {
   
   
    PRS_daimler_benz = {
-   designer = yes
+   
    allowed = { original_tag = PRS }
    picture = PRS_daimler
    cost = 150
@@ -100,7 +100,7 @@ ideas = {
 
  ###Germany (Socialist) 
   GER_nord_deutsche_industrie_gesellschaft = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_nord_deutsche
    cost = 150
@@ -117,7 +117,7 @@ ideas = {
   }
 
   GER_rote_stahl = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_rote_stahl
    cost = 150
@@ -134,7 +134,7 @@ ideas = {
   }
   
   GER_rote_arbeiter = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_rote_arbeiter
    cost = 150

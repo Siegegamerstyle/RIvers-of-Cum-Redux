@@ -39,7 +39,7 @@ LES_banish_x = {
 
     remove_effect = {
     ROOT = {
-      remove_idea = {LES_banish_aliens}
+      remove_ideas = {LES_banish_aliens}
       }
         FROM = {
         set_state_flag = banish

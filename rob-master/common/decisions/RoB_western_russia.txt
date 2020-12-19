@@ -37,7 +37,7 @@ RUS_expansion_question = {
 	  is_core_of = CHE
 	  is_core_of = DAG
 	  }
-	add_core_of = ROOT
+	 add_core_of = ROOT
    }
   }
  }

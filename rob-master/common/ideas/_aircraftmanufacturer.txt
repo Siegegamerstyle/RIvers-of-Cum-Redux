@@ -3,7 +3,7 @@ ideas = {
  
  ###Russian Soviet Republic
  RSR_tupolov = {
-   designer = yes
+   
    picture = RSR_tupolev
    allowed = { tag = SOV }
    available = { has_completed_focus = SOV_alksnisplan }
@@ -20,7 +20,7 @@ ideas = {
   }
   
  RSR_polikarpov = {
-   designer = yes
+   
    picture = RSR_polikavorp
    allowed = { tag = SOV }
    available = { has_completed_focus = SOV_novikovsplan }
@@ -40,7 +40,7 @@ ideas = {
  ###Lithuania
  
   LIT_anbo = {
-   designer = yes
+   
    picture = LIT_anbo
    allowed = { tag = LIT }
    available = { has_completed_focus = LIT_grantanbomoreprivledges }
@@ -58,7 +58,7 @@ ideas = {
   }
 
   LIT_lietuvos_aeroklubas = {
-   designer = yes
+   
    picture = LIT_lietuvos_aeroklubas
    allowed = { tag = LIT }
    cost = 150
@@ -78,7 +78,7 @@ ideas = {
  ###Prussia
  
   GER_heinkel = {
-   designer = yes
+   
    picture = PRS_heinkel
    allowed = { tag = PRS }
    cost = 150
@@ -94,7 +94,7 @@ ideas = {
   }
   
   GER_messerschmit = {
-   designer = yes
+   
    picture = PRS_meserschimt
    allowed = { tag = PRS }
    cost = 150
@@ -111,7 +111,7 @@ ideas = {
   }
   
   GER_focke_wulf = {
-   designer = yes
+   
    picture = PRS_albratos
    allowed = { tag = PRS }
    cost = 150
@@ -129,7 +129,7 @@ ideas = {
  
  ###Germany (Socialist)
   GER_rote_luftwaffe = {
-   designer = yes
+   
    picture = GER_kiel_areodome
    allowed = { original_tag = GER }
    cost = 150
@@ -146,7 +146,7 @@ ideas = {
    }
    
   GER_berlin_commune = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_berlin_areodome
    cost = 150
@@ -163,7 +163,7 @@ ideas = {
    }
 
   GER_frankfurt_aresenal = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_frankfurt_arsenal
    cost = 150
@@ -180,7 +180,7 @@ ideas = {
    }
 
   GER_munic_areadome = {
-   designer = yes
+   
    allowed = { original_tag = GER }
    picture = GER_munich_aredome
    cost = 150

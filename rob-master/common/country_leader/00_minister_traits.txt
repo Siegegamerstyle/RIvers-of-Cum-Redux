@@ -103,14 +103,14 @@ hog_incompetant_leader = {
 
 im_harsh_tyrannt = {
  non_core_manpower = -0.02
- enemy_partisan_effect = -0.2
+ resistance_target = -0.2
  
  random = no 
 }
 
 im_sociopath = {
  non_core_manpower = -0.1
- enemy_partisan_effect = -0.45
+ resistance_target = -0.45
  
  random = no 
 }
@@ -145,14 +145,14 @@ im_efficent_planner = {
 
 im_militarist = {
  industrial_capacity_factory = 0.05
- enemy_partisan_effect = -0.05
+ resistance_target = -0.05
  
  random = no 
 }
 
 im_inexperienced_buercrat = {
  political_power_factor = -0.08
- enemy_partisan_effect = 0.05
+ resistance_target = 0.05
  
  random = no 
 }
@@ -188,7 +188,7 @@ im_feudalist = {
 
 im_iron_fisted = {
  stability_factor = 0.04
- enemy_partisan_effect = -0.07
+ resistance_target = -0.07
  
  random = no 
 }

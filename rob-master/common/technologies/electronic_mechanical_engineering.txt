@@ -18,19 +18,19 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1936
+		start_year = 1935
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 0 }
 		}
 		
 		ai_will_do = {
-			factor = 30
+			factor = 10
 			
 			
 			modifier = {
 				factor = 3
-				date > "1937.1.1"
+				date > "1935.1.1"
 			}
 		}
 		
@@ -52,7 +52,7 @@ technologies = {
 		}
 		
 		research_cost = 1.75
-		
+		start_year = 1936
 		folder = {
 			name = electronics_folder
 			position = { x = -2 y = 2 }
@@ -76,7 +76,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 5
-				date > "1939.8.1"
+				date > "1938.8.1"
 			}
 		}
 		
@@ -359,7 +359,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		
+		start_year = 1936
 		folder = {
 			name = electronics_folder
 			position = { x = 2 y = 2 }
@@ -409,12 +409,12 @@ technologies = {
 			
 			modifier = {
 				factor = 3
-				date > "1938.1.6"
+				date > "1937.1.6"
 			}
 			
 			modifier = {
 				factor = 3
-				date > "1939.1.1"
+				date > "1938.1.1"
 			}
 		}
 		

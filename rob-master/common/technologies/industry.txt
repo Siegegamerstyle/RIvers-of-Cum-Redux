@@ -21,14 +21,14 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1935
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 0 }
 		}
 		
 		ai_will_do = {
-			factor = 50
+			factor = 12
 		}
 		
 		categories = {
@@ -761,7 +761,7 @@ technologies = {
 		}
 		
 		research_cost = 1
-		start_year = 1936
+		start_year = 1935
 		folder = {
 			name = industry_folder
 			position = { x = 1 y = 0 }
@@ -831,11 +831,11 @@ technologies = {
 			
 			modifier = {
 				factor = 0.2
-				date < "1937.1.1"
+				date < "1936.1.1"
 			}
 			modifier = {
 				factor = 0.4
-				date < "1938.1.1"
+				date < "1937.1.1"
 			}
 		}
 	}
@@ -1617,11 +1617,11 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 50
+			factor = 12
 			
 			modifier = {
 				factor = 5
-				date > "1937.1.1"
+				date > "1935.1.1"
 			}
 		}
 	}

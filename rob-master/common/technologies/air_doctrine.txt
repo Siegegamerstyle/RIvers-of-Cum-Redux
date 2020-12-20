@@ -25,7 +25,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 2.25
+		research_cost = 3.75.25
 		
 		categories = {
 			air_doctrine
@@ -71,7 +71,7 @@ technologies = {
 		}
 		
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -117,7 +117,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -168,7 +168,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -218,7 +218,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -268,7 +268,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -324,7 +324,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -375,7 +375,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -425,7 +425,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -483,7 +483,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -538,7 +538,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -584,7 +584,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -635,7 +635,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -677,7 +677,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -717,7 +717,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00	
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -773,7 +773,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 2.25
+		research_cost = 3.75.25
 		
 		categories = {
 			air_doctrine
@@ -829,7 +829,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -885,7 +885,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -940,7 +940,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -994,7 +994,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1043,7 +1043,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1106,7 +1106,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1157,7 +1157,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1206,7 +1206,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1253,7 +1253,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00	
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1299,7 +1299,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00	
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1346,7 +1346,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1379,7 +1379,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00		
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1426,7 +1426,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 2.25
+		research_cost = 3.75.25
 		
 		categories = {
 			air_doctrine
@@ -1472,7 +1472,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1519,7 +1519,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1566,7 +1566,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1617,7 +1617,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1670,7 +1670,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1717,7 +1717,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1766,7 +1766,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1815,7 +1815,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1862,7 +1862,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1910,7 +1910,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine
@@ -1952,7 +1952,7 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		doctrine = yes	
-		research_cost = 3
+		research_cost = 3.75
 		
 		categories = {
 			air_doctrine

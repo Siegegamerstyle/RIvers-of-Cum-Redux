@@ -264,7 +264,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Erich von Manstein"
-	picture = "Portrait_Germany_Erwin_Rommel.dds"
+	picture = "Portrait_GER_Erich_Von_Manstein_DPRK_uniform-1.tga"
 	traits = { infantry_leader war_hero }
 	skill = 3
 	id = 9
@@ -276,7 +276,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Fritz Erich Fellgiebel"
-	picture = "Portrait_Germany_Erwin_Rommel.dds"
+	picture = "Portrait_GER_Fritz Erich Fellgiebel.tga"
 	traits = { trickster inflexible_strategist war_hero }
 	skill = 2
 	id = 13

@@ -25,12 +25,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 10
+			factor = 25
 			
 			
 			modifier = {
-				factor = 3
-				date > "1935.1.1"
+				factor = 0
+				date < "1934.8.1"
 			}
 		}
 		

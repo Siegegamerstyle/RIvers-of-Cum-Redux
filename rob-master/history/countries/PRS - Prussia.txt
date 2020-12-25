@@ -210,7 +210,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Heinz Guderian"
-	picture = "paul-von-lettow-vorbeck"
+	picture = "Portrait_PRS_guderian.dds"
 	traits = { war_hero trait_reckless trickster }
 	skill = 4
 	id = 9999996

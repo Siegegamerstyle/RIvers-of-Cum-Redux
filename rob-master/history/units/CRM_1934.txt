@@ -73,14 +73,7 @@ start_experience_factor = 0.3
 start_equipment_factor = 0.6
 
 }
-division = {
-name = "5.Strelkovaya Diviziya"
-location = 3765
-division_template = "Strelkovaya Diviziya"
-start_experience_factor = 0.3
-start_equipment_factor = 0.6
 
-}
 division = {
 name = "Belya Gvardiya"
 location = 585
@@ -103,14 +96,6 @@ location = 6724
 division_template = "Belya Gvardiya"
 start_experience_factor = 0.2
 start_equipment_factor = 0.4
-
-}
-division = {
-name = "Belya Gvardiya"
-location = 9680
-division_template = "Belya Gvardiya"
-start_experience_factor = 0.8
-start_equipment_factor = 0.8
 
 }
 

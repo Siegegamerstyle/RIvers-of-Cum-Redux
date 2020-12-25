@@ -1372,11 +1372,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = LES_radolasurvives }
 	    ai_will_do = {
-     	base = 2
-     	modifier = {
-      	factor = 200
-      	date > 1936.1.1
-      	}
+     	base = 60
  	 }
 
 		completion_reward = {
@@ -1391,19 +1387,14 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 16
 		y = 0
-		cost = 5
+		cost = 1
+		#allow_branch = {has_country_flag = LES_survives}
 		available = {
- 			AND = {
  			has_country_flag = LES_survives
-			}
 		}
 		available_if_capitulated = yes
     	ai_will_do = {
-     	base = 2
-     	modifier = {
-      	factor = 1000
-      	date > 1935.4.1
-      	}
+     	base = 1000
  	 }
 		completion_reward = {
 		add_political_power = 50
@@ -1497,7 +1488,7 @@ focus_tree = {
 			focus = LES_communalfarmers 
 		}
 		ai_will_do = {
-		base = 2
+		base = 8
      	modifier = {
       	factor = 700
       	has_war = no
@@ -1506,7 +1497,7 @@ focus_tree = {
 
 		completion_reward = {
 		remove_ideas = {
-		LES_Risk_of_Famine
+		LES_Risk_of_Famine_3
 		}
 		}
 	}
@@ -2617,9 +2608,9 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
-		base = 2
+		base = 10
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -2645,7 +2636,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -2684,7 +2675,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 1
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -2720,7 +2711,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -2758,9 +2749,9 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
-		base = 10
+		base = 5
      	modifier = {
-      	factor = 700
+      	factor = 10
       	has_war = no
       	}
       	}
@@ -2782,7 +2773,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 5
      	modifier = {
-      	factor = 700
+      	factor = 10
       	has_war = no
       	}
       	}
@@ -2806,7 +2797,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -2840,7 +2831,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -2865,7 +2856,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -2888,7 +2879,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -2913,9 +2904,9 @@ focus_tree = {
 			focus = LES_demobilisethe4thregiment 
 		}
 		ai_will_do = {
-		base = 2
+		base = 3
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -2945,7 +2936,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -2974,7 +2965,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -2996,7 +2987,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -3101,7 +3092,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 4
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -3123,7 +3114,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -3165,7 +3156,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -3215,9 +3206,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = LES_beginrailwayreconstruction }
 		ai_will_do = {
-		base = 1
+		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -3252,7 +3243,7 @@ focus_tree = {
 		ai_will_do = {
 		base = 2
      	modifier = {
-      	factor = 700
+      	factor = 5
       	has_war = no
       	}
       	}
@@ -3271,11 +3262,11 @@ focus_tree = {
 		icon = GFX_focus_LIT_chamberofservices
 		x = 16
 		y = 1
-		cost = 5
+		cost = 3
 		available_if_capitulated = yes
 		prerequisite = { focus = LES_radolasurvives }
 	    ai_will_do = {
-     	base = 2
+     	base = 60
      	modifier = {
       	factor = 1000
       	date > 1936.1.1
@@ -3292,11 +3283,11 @@ focus_tree = {
 		icon = GFX_focus_generic_military_mission
 		x = 19
 		y = 2
-		cost = 3
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = LES_punishdisloyalelements }
 	    ai_will_do = {
-     	base = 2
+     	base = 59
      	modifier = {
       	factor = 1000
       	date > 1936.1.1
@@ -3313,11 +3304,11 @@ focus_tree = {
 		icon = GFX_focus_LIT_spread_revolution
 		x = 16
 		y = 2
-		cost = 5
+		cost = 4
 		available_if_capitulated = yes
 		prerequisite = { focus = LES_seizecontrolofmilitaryintelligence }
 	    ai_will_do = {
-     	base = 1
+     	base = 60
      	modifier = {
       	factor = 1000
       	date > 1936.1.1
@@ -3338,7 +3329,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = LES_radolasurvives }
 	    ai_will_do = {
-     	base = 1
+     	base = 60
      	modifier = {
       	factor = 1000
       	date > 1936.1.1
@@ -3359,11 +3350,11 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 13
 		y = 2
-		cost = 5
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = LES_thewondersofpropaganda }
 	    ai_will_do = {
-     	base = 1
+     	base = 60
      	modifier = {
       	factor = 1000
       	date > 1936.1.1
@@ -3390,7 +3381,7 @@ focus_tree = {
 			focus = LES_exaggerateintelonkarelsforces 
 		}
 	    ai_will_do = {
-     	base = 1
+     	base = 60
      	modifier = {
       	factor = 1000
       	date > 1936.1.1
@@ -3417,7 +3408,7 @@ focus_tree = {
 			focus = LES_rapidpromotionsofselectedfew 
 		}
 	    ai_will_do = {
-     	base = 1
+     	base = 60
      	modifier = {
       	factor = 1000
       	date > 1936.1.1
@@ -3435,7 +3426,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		x = 16
 		y = 4
-		cost = 5
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = LES_theredscare 
@@ -3444,7 +3435,7 @@ focus_tree = {
 			focus = LES_demandsavings 
 		}
 	    ai_will_do = {
-     	base = 5
+     	base = 60
      	modifier = {
       	factor = 1000
       	date > 1936.1.1
@@ -3453,6 +3444,7 @@ focus_tree = {
 		completion_reward = {
 		remove_ideas = { LES_Discontent }
 		set_country_flag = LES_gadjahasconsolidedpower 
+		custom_effect_tooltip = les_tt_10
 		}
 	}
 
@@ -3674,6 +3666,14 @@ focus_tree = {
 		prerequisite = { focus = LES_legionsarmy }
 		ai_will_do = {
 			factor = 1
+			modifier = {
+			factor = 1000
+			has_country_flag = LES_justifying_KAR
+			}
+			modifier = {
+			factor = 8
+			has_war_with = OMS
+			}
 		}
 		completion_reward = {
 
@@ -3721,7 +3721,7 @@ focus_tree = {
 		add_building_construction = {
 		type = bunker
 		level = 2
-		province = 12106
+		province = 12102
 		instant_build = yes
 		}}
 
@@ -4005,9 +4005,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		available = {
-		 date > 2002.1.1
-		}
+
 		completion_reward = {
 		LES = { country_event = { id = legion.1 days = 1 } }
 		}
@@ -4259,7 +4257,7 @@ focus_tree = {
      	base = 1
      	modifier = {
       	factor = 400
-      	has_manpower < 5000
+      	has_manpower < 10000
       	}
       	}
 		completion_reward = {
@@ -4300,7 +4298,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = LES_thearmoryisempty }
 		ai_will_do = {
-		base = 2
+		base = 3
      	modifier = {
       	factor = 700
       	has_war = yes
@@ -4394,7 +4392,7 @@ focus_tree = {
 			focus = LES_standartiserifles 
 		}
 		ai_will_do = {
-		base = 2
+		base = 3
      	modifier = {
       	factor = 1000
       	has_war = yes
@@ -4421,7 +4419,7 @@ focus_tree = {
 			focus =  LES_thearmoryisempty
 		}
 		ai_will_do = {
-		base = 2
+		base = 4
      	modifier = {
       	factor = 1000
       	has_war = yes
@@ -4434,7 +4432,7 @@ focus_tree = {
 	#Focus for Reach Krasnoyarsk
 	focus = {
 		id = LES_rebuildingtranssiberianrailway
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 23
 		y = 3
 		cost = 5
@@ -4476,7 +4474,7 @@ focus_tree = {
 	#Focus for Chita
 	focus = {
 		id = LES_chita
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 23
 		y = 4
 		cost = 5
@@ -4518,7 +4516,7 @@ focus_tree = {
 	#Focus for Vladivostock
 	focus = {
 		id = LES_vladivostock
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 23
 		y = 5
 		cost = 5
@@ -4584,10 +4582,6 @@ focus_tree = {
 		prerequisite = { focus = LES_thearmoryisempty }
 		ai_will_do = {
 		base = 2
-     	modifier = {
-      	factor = 700
-      	has_war = yes
-      	}
 		}
 		completion_reward = {
 		 add_tech_bonus = {

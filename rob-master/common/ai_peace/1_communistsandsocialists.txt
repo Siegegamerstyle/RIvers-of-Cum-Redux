@@ -9,7 +9,7 @@
 
 communist_peace = {
 	enable = {
-		OR = { has_government = democratic_socialist has_government = socialist has_government = national_socialist }
+		OR = { has_government = democratic_socialist has_government = socialist }
 	}
 
 	annex_randomness = 0 #200
@@ -44,6 +44,13 @@ communist_peace = {
 				}
 			}
 		}
+		modifier = {
+			factor = 500
+			AND = {	
+				FROM = { has_country_flag = india_boom }
+				ROOT = { has_country_flag = india_boom }
+				}		
+		}
 		#modifier = {
 		#	factor = 0
 		#	is_puppet = yes
@@ -65,7 +72,7 @@ communist_peace = {
 			}		
 			NOT = {
 				FROM = {
-					OR = { has_government = democratic_socialist has_government = socialist has_government = national_socialist }
+					OR = { has_government = democratic_socialist has_government = socialist}
 				}			
 			}
 		}
@@ -93,11 +100,14 @@ communist_peace = {
 				tag = DDR
 			}
 		}
-		modifier = { 
-			factor = 0
-			FROM = { tag = WGR }
-		}
+		modifier= {
+		factor = 0
 
+		AND = {	
+				FROM = { has_country_flag = india_boom }
+				ROOT = { has_country_flag = india_boom }
+				}
+		}
 		modifier = { #Don't release fascist states in Europe
 			factor = 0
 			FROM = {
@@ -516,7 +526,7 @@ communist_peace = {
 			factor = -1
 
 			FROM = {
-				OR = { has_government = democratic_socialist has_government = socialist has_government = national_socialist }
+				OR = { has_government = democratic_socialist has_government = socialist }
 			}
 		}
 	}

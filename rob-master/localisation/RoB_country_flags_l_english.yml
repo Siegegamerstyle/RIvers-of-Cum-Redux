@@ -66,7 +66,9 @@
  les_tt_7:0 "§GOne will to rule them all§!"
  les_tt_8:0 "§GUnited we march towards future§!"
  les_tt_9:0 "§GLike Rome§!"
- les_tt_10:0 "§§!"
+ les_tt_10:0 "§GEyes will fall on East§!"
+ les_tt_11:0 "§§!"
+ les_tt_12:0 "§§!"
  ###Scripted Triggers
  minister_available:0 "Minister Available For This Government Type"
  democratic_aligned_government:0 "Government is Democratic Aligned"

@@ -55,9 +55,9 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Josef Jiří Švec"
-	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
-	traits = { winter_specialist offensive_doctrine war_hero}
+	name = "Jan Syrový"
+	gfx = "LES_jan_syrov.tga"
+	traits = { offensive_doctrine }
 	skill = 3
     attack_skill = 3
     defense_skill = 2
@@ -65,6 +65,16 @@ create_field_marshal = {
     logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "Josef Jiří Švec"
+	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
+	traits = { winter_specialist war_hero}
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+}
 create_corps_commander = {
 	name = "Vojtěch Luža"
 	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
@@ -80,6 +90,7 @@ create_corps_commander = {
 	name = "Sergej Vojcechovský"
 	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
 	traits = { winter_specialist trickster }
+	id = 5721
 	skill = 3
     attack_skill = 4
     defense_skill = 3
@@ -88,7 +99,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Stanislav Čeček"
-	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
+	gfx = "Portrait_LES_stansilav_chechek.tga"
 	traits = { winter_specialist infantry_leader }
 	skill = 3
     attack_skill = 3

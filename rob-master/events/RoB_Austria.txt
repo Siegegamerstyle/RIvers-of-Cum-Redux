@@ -1,32 +1,32 @@
 add_namespace = rob_austria
 
-##Event: Engelbert Dollfuss Disolves All Parties
-#news_event = {
- #id = rob_austria.1
- #title = rob_austria.1.t
- #desc = rob_austria.1.d
- #picture = GFX_news_event_generic_parliament
-  #trigger = {
-   # date > 1934.1.12
-	#tag = AUS
-	#}
- #fire_only_once = yes
- #major = yes
- #option = {
-	#name = rob_austria.1.a
-	#add_popularity = {
-   # ideology = reactionary
-   # popularity = 0.05
-#}
-#hidden_effect = { 
-		#country_event = {
-		   # id = rob_austria.2
-		   # days = 5
-		   # random = 15
-		#}}
+#Event: Engelbert Dollfuss Disolves All Parties
+news_event = {
+ id = rob_austria.1
+ title = rob_austria.1.t
+ desc = rob_austria.1.d
+ picture = GFX_news_event_generic_parliament
+  trigger = {
+    date > 1934.1.12
+	tag = AUS
+	}
+ fire_only_once = yes
+ major = yes
+ option = {
+	name = rob_austria.1.a
+	add_popularity = {
+    ideology = reactionary
+    popularity = 0.05
+}
+hidden_effect = { 
+		country_event = {
+		    id = rob_austria.2
+		    days = 5
+		    random = 15
+		}}
 
-#}
-#}
+}
+}
 
 ##Event: Nazis and Commies prepare
  country_event = {
@@ -550,34 +550,3 @@ country_event = {
 }
 
 }#end
-
-###Hungary
-country_event = {
-	id = rob_austria.9
-	title = rob_austria.9.t
-	desc = rob_austria.9.d
-	fire_only_once = yes
-	is_triggered_only = yes
-	picture = GFX_picture_russia_white_soldiers
-	
-	#ignores demands
-	option = {
-	name = rob_austria.9.a
-			
-			HUN = { 
-			  country_event = {  
-				id = rob_hungary.2
-				days = 4
-			}
-		
-		}
-	}
-	#nigga conceeds
-	option = {
-	name = rob_austria.9.b
-		hidden_effect = { 	
-		HUN = { transfer_state = 810 }	
-			}
-		
-	}
-}

@@ -167,8 +167,8 @@ LES_Fiercest_Infantry = {
 			}
      removal_cost = -1
 	 modifier = {
-	stability_weekly = -0.0025
-    war_support_weekly = -0.0025
+	stability_weekly = -0.0010
+    war_support_weekly = -0.0010
     political_power_gain = -0.25
 	 }
 
@@ -183,8 +183,8 @@ LES_Fiercest_Infantry = {
 			}
      removal_cost = -1
 	 modifier = {
-	stability_weekly = 0.0030
-    war_support_weekly = 0.0030
+	stability_weekly = 0.0015
+    war_support_weekly = 0.0015
 	 }
 
 }
@@ -199,7 +199,10 @@ LES_Fiercest_Infantry = {
 			}
      removal_cost = -1
 	 modifier = {
-    political_power_gain = 0.20
+    civilian_intel_factor = 0.25
+    army_intel_factor = 0.25
+    airforce_intel_factor = 0.25
+    navy_intel_factor = 0.25
 	 }
 
 }
@@ -2565,7 +2568,8 @@ LES_Fiercest_Infantry = {
 			}
      removal_cost = -1
 	 modifier = {
-	 industrial_capacity_factory = 0.1
+	 industrial_capacity_factory = -0.1
+   consumer_goods_factor = -0.10
 	 production_factory_max_efficiency_factor = 0.1
    }
  }

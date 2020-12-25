@@ -116,7 +116,7 @@ CRO = { transfer_state = 45 }
 CRO = { transfer_state = 1139 }
 CRO = { transfer_state = 764 }
 CRO = { transfer_state = 869 }
-
+CRO = { set_country_flag = croatia_victory }
 
 add_stability = 0.1
 

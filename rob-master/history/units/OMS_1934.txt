@@ -53,7 +53,7 @@ start_experience_factor = 0.3
 start_equipment_factor = 0.4
 }
 division = {
-location = 10600
+location = 7774
 division_template = "Red Rifleman Regiment"
 start_experience_factor = 0.3
 start_equipment_factor = 0.4
@@ -82,7 +82,7 @@ start_equipment_factor = 0.2
 }
 
 division = {
-location = 1387
+location = 4824
 division_template = "Socialist Millita"
 start_experience_factor = 0.2
 start_equipment_factor = 0.4

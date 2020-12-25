@@ -72,7 +72,7 @@ if = {
    has_country_flag = LES_justifying
   }
   has_war = no
-  date > 1935.6.1
+  date > 1935.1.1
  }
 if = {
  AGR = { 
@@ -102,10 +102,15 @@ KAR = {
  cost = 50
  fire_only_once = yes
  days_remove = 20
+ complete_effect = {
+ set_country_flag = LES_justifying
+ set_country_flag = LES_justifying_KAR
+ }
  remove_effect = {
  571 = { add_claim_by = LES }
   ROOT = {
  declare_war_on = { target = KAR type = annex_everything }
+ clr_country_flag = LES_justifying_KAR
  clr_country_flag = LES_justifying
   }
  }
@@ -114,9 +119,7 @@ KAR = {
 ###
 LES_deal_with_KAR = {
   target_trigger = { FROM = {tag = KAR} }
-  visible = {
-  LES = { owns_state = 571 }
- }
+   cost = 10
  available = {
   LES = { owns_state = 571 }
 
@@ -127,7 +130,6 @@ LES_deal_with_KAR = {
    factor = 200
    }
  }
- cost = 25
  fire_only_once = yes
  complete_effect = {
  LES =  { country_event = { id = legion.21 days = 1} }
@@ -137,6 +139,7 @@ LES_deal_with_KAR = {
 ###
 LES_annex_AGR = {
   target_trigger = { FROM = {tag = AGR} }
+   cost = 25
   visible = {
   tag = LES
   AGR = {
@@ -177,32 +180,20 @@ if = {
   }
    }
  }
-  cost = 25
  fire_only_once = yes
 complete_effect = {
 AGR =  { country_event = { id = agrussia.2 days = 3 } }
  }}
 
 ###
-LES_annex_AGR_2 = {
+LES_core_AGR {
   target_trigger = { FROM = {tag = AGR} }
-  visible = {
-  tag = LES
-  AGR = {
-  exists = no
-  }
-  LES = { owns_state = 1231 }
-  NOT = {
-  1231 = { is_core_of = LES }
-  }
-  has_country_flag = LES_early_game_war
- }
+  cost = 10
  available = {
  LES = { owns_state = 1231 }
   NOT = {
   1231 = { is_core_of = LES }
   }
-  has_country_flag = LES_early_game_war
  }
 
  ai_will_do = {
@@ -217,7 +208,6 @@ LES_annex_AGR_2 = {
   }
    }
  }
-  cost = 25
  fire_only_once = yes
  complete_effect = {
     LES = { country_event = { id = legion.25 days = 1 } }
@@ -363,7 +353,7 @@ LES_russian_expansion= {
   has_war = no
  }
  ai_will_do = {
-  base = 10
+  base = 0
    modifier = {
    factor = 200
     ROOT = {
@@ -461,7 +451,7 @@ LES_destroy_OMS = {
   has_war = no
  }
  ai_will_do = {
-  base = 10
+  base = 500
    modifier = {
    factor = 200
     ROOT = {
@@ -477,11 +467,13 @@ LES_destroy_OMS = {
  days_remove = 20
  complete_effect = {
  set_country_flag = LES_justifying
+ set_country_flag = LES_justifying_OMS
  }
  remove_effect = {
   ROOT = {
       declare_war_on = { target = OMS type = annex_everything }
       clr_country_flag = LES_justifying
+      clr_country_flag = LES_justifying_OMS
   }
  }
  }
@@ -1174,7 +1166,7 @@ LES_destroy_IRK = {
 
  }
  ai_will_do = {
-  base = 10
+  base = 0
    modifier = {
    factor = 200
     ROOT = {
@@ -2771,7 +2763,7 @@ les_5th_invades = {
           }
           activation = {
           has_war = yes
-          NOT = { has_country_flag = LES_early_game_war }
+          country_exists = OMS
           }
           is_good = no
           days_mission_timeout = 200

@@ -1,0 +1,15 @@
+version="1.8.1"
+tags={
+	"Alternative History"
+	"Balance"
+	"Gameplay"
+	"Graphics"
+	"Military"
+	"Technologies"
+	"Utilities"
+	"Historical"
+}
+name="*UMC* Technology Completed"
+supported_version="1.10.3"
+path="C:/Program Files (x86)/Steam/steamapps/workshop/content/394360/2315560971"
+remote_file_id="2315560971"
